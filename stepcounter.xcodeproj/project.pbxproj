@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0FF45E298F3A0A00D29429 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0FF45D298F3A0A00D29429 /* ViewModel.swift */; };
 		9FF07020298F36AF000EB0BB /* stepcounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0701F298F36AF000EB0BB /* stepcounterApp.swift */; };
 		9FF07022298F36AF000EB0BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF07021298F36AF000EB0BB /* ContentView.swift */; };
 		9FF07024298F36B1000EB0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF07023298F36B1000EB0BB /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0FF45C298F39BB00D29429 /* stepcounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stepcounter.entitlements; sourceTree = "<group>"; };
+		9F0FF45D298F3A0A00D29429 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9FF0701C298F36AF000EB0BB /* stepcounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepcounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF0701F298F36AF000EB0BB /* stepcounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepcounterApp.swift; sourceTree = "<group>"; };
 		9FF07021298F36AF000EB0BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		9FF07013298F36AF000EB0BB = {
 			isa = PBXGroup;
 			children = (
+				9F0FF45D298F3A0A00D29429 /* ViewModel.swift */,
 				9FF0701E298F36AF000EB0BB /* stepcounter */,
 				9FF0701D298F36AF000EB0BB /* Products */,
 			);
@@ -51,6 +55,7 @@
 		9FF0701E298F36AF000EB0BB /* stepcounter */ = {
 			isa = PBXGroup;
 			children = (
+				9F0FF45C298F39BB00D29429 /* stepcounter.entitlements */,
 				9FF0701F298F36AF000EB0BB /* stepcounterApp.swift */,
 				9FF07021298F36AF000EB0BB /* ContentView.swift */,
 				9FF07023298F36B1000EB0BB /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF07022298F36AF000EB0BB /* ContentView.swift in Sources */,
+				9F0FF45E298F3A0A00D29429 /* ViewModel.swift in Sources */,
 				9FF07020298F36AF000EB0BB /* stepcounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stepcounter/stepcounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stepcounter/Preview Content\"";
@@ -292,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stepcounter/stepcounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stepcounter/Preview Content\"";
